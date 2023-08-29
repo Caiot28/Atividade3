@@ -7,10 +7,10 @@ main(){
     printf("Digite sua altura: ");
     scanf("%f", &altura);
 
-    if (altura >= 1.8){
-        printf("Maior ou igual a 1.8m");
+    if (altura > 1.8){
+        printf("Maior que 1.8m");
     } else {
-        printf("Menor que 1.8");
+        printf("Menor ou igual a 1.8");
     }
 
 }
